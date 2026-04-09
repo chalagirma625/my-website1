@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: space-between;
+    background: #2c3e50;
+    color: white;
+    padding: 15px 50px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Hero Section */
+.home {
+    text-align: center;
+    padding: 100px;
+    background: linear-gradient(to right, #2980b9, #6dd5fa);
+    color: white;
+}
+
+/* Sections */
+section {
+    padding: 50px;
+}
+
+.about {
+    background: #f4f4f4;
+}
+
+/* Skills */
+.bar {
+    width: 100%;
+    background: #ddd;
+    height: 20px;
+    border-radius: 10px;
+}
+
+.bar div {
+    height: 20px;
+    border-radius: 10px;
+}
+
+.html { width: 85%; background: orange; }
+.css { width: 75%; background: blue; }
+.python { width: 65%; background: green; }
+.js { width: 50%; background: black; }
+
+/* Projects */
+.project-box {
+    background: #f4f4f4;
+    padding: 20px;
+    margin: 15px 0;
+    border-left: 5px solid #2980b9;
+}
+
+/* Contact */
+.contact input, .contact textarea {
+    width: 300px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+button {
+    padding: 10px 20px;
+    background: #2980b9;
+    color: white;
+    border: none;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background: #2c3e50;
+    color: white;
+    padding: 20px;
+}
